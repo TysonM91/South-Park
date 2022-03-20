@@ -1,0 +1,203 @@
+/* Page Style */
+*{
+    padding: 0;
+    margin: 0;
+    font-family:monospace;
+    font-size: 12px;
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    opacity: 0.8;
+    font-size: 9px;
+}
+
+img{
+    border-radius: 20px;
+}
+
+/* Container Style */
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container0{
+    background-color: #1f2937;
+}
+
+.container1{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+}
+
+.container2{
+    background-color: white;
+}
+
+.container3{
+    background-color:#e5e7eb;
+}
+
+.container4{
+    background-color: white;
+}
+
+.container5{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+/* Div Style */
+.one{
+    display: flex;
+    align-items:center;
+    text-align:center;
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight:bold;
+    padding: 3rem;
+}
+
+.two{
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+}
+
+.three{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: #e5e7eb;
+}
+
+.four{
+    display: flex;
+    justify-content: center;
+   padding-top: 1.5rem;
+   padding-bottom: 1.5rem;
+}
+
+.five{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.six{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+.seven{
+    width: 140px;
+}
+
+.eight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.nine{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 220px;
+}
+
+.ten{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    color: #f9faf8;
+    padding-top: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.eleven{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: #f9faf8;
+    height: 1000rem;
+}
+
+/* Button Style */
+#btn1{
+    align-items: flex-start;
+    box-sizing: border-box;
+    display: block;
+    padding: auto;
+    margin-right: auto;
+    width: 110px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+    border-radius: 6px;
+    color: #fff;
+    background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+    background-origin: border-box;
+    box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+    margin-top: 1rem;
+}
+
+#btn2{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+    background-origin: border-box;
+    box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+    margin-right: 0rem;
+}
+
+.fa{
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-snapchat{
+    background: #3B5998;
+    color: white;}
+
+.fa-instagram{
+    background: #55ACEE;
+    color: white;
+}
